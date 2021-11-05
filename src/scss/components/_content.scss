@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+body.overflow-hidden {
+  overflow: hidden;
+}
+
+.content {
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.content .cart {
+  flex: 1 1 auto;
+}
+
+#cards {
+  margin-top: 4rem;
+}
+
+.card-img-top {
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}

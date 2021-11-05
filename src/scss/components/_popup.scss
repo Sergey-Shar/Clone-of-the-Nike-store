@@ -1,0 +1,84 @@
+.popup {
+  &.open &__overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 10;
+    transition: all 0.5s ease 0s;
+  }
+
+  &.open &__body {
+    opacity: 1;
+    z-index: 10;
+    transition: all 0.5s ease 0s;
+  }
+
+  &__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+  }
+
+  &__body {
+    display: flex;
+    width: 50rem;
+    height: 40rem;
+    border-radius: 25px;
+    background-color: #fff;
+    margin: 5rem auto;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+  }
+
+  &__img {
+    height: 40rem;
+    width: auto;
+    border-radius: 23px 0px 0px 23px;
+  }
+
+  &__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    width: 30rem;
+  }
+
+  &__close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+
+  &__title {
+    position: absolute;
+    left: 3rem;
+    top: 1.5rem;
+    font-size: 2rem;
+  }
+
+  &__model {
+    font-size: 1.2rem;
+  }
+
+  &__size {
+    font-size: 1.2rem;
+  }
+
+  &__price {
+    font-size: 25px;
+  }
+}
+
+#btn[data-btn="showCart"] {
+  background-color: #000;
+}

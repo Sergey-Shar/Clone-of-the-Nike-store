@@ -1,0 +1,139 @@
+.footer {
+  background-color: #000;
+  min-height: 20rem;
+  margin-top: 2rem;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+    height: 10rem;
+  }
+
+  &__info-link {
+    display: flex;
+    flex-direction: column;
+
+    & a {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__link-info {
+    font-size: 17px;
+    font-weight: 900;
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &__link-help {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 2rem;
+  }
+
+  &__help-title {
+    font-size: 17px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 1rem;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &__link-about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__about-nike {
+    font-size: 17px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &__twitter {
+    color: #a9a9a9;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &__facebook {
+    color: #a9a9a9;
+    padding-left: 1rem;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &__youtube {
+    color: #a9a9a9;
+    padding-left: 1rem;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &__instagram {
+    color: #a9a9a9;
+    padding-left: 1rem;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .link-white,
+  .link-white_a {
+    color: #a9a9a9;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.help__container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+
+  & a {
+    margin-bottom: 0.5rem;
+  }
+
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+
+  & a {
+    margin-bottom: 0.5rem;
+  }
+}

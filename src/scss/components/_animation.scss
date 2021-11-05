@@ -1,0 +1,125 @@
+.app {
+  display: none;
+
+  &.app-show {
+    display: block;
+    animation-name: slider-text-app;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+  }
+
+  &.app-hidden {
+    display: block;
+    animation-name: slider-text-app-hidden;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+  }
+}
+
+.covid {
+  display: none;
+
+  &.covid-show {
+    display: block;
+    animation-name: slider-text-covid;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+  }
+
+  &.covid-hidden {
+    display: block;
+    animation-name: slider-text-covid-hidden;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+  }
+}
+
+.refund {
+  display: none;
+
+  &.refund-show {
+    display: block;
+    animation-name: slider-text-refund;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+  }
+
+  &.refund-hidden {
+    display: block;
+    animation-name: slider-text-refund-hidden;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes slider-text-app {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(600%);
+  }
+}
+
+@keyframes slider-text-app-hidden {
+  0% {
+    transform: translateX(-600%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slider-text-covid {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-600%);
+  }
+}
+
+@keyframes slider-text-covid-hidden {
+  0% {
+    transform: translateX(600%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slider-text-refund {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(700%);
+  }
+}
+
+@keyframes slider-text-refund-hidden {
+  0% {
+    transform: translateX(-600%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}

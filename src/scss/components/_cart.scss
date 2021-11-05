@@ -1,0 +1,45 @@
+.content-cart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20rem;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 1.7rem;
+  }
+
+  &__result {
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+
+  &__finich {
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 3rem;
+    font-size: 1.3rem;
+  }
+
+  &__pay {
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 3rem;
+  }
+}

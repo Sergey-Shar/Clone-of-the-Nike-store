@@ -1,0 +1,61 @@
+.popup-burger {
+
+  &.open &__overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 10;
+    transition: all 0.5s ease 0s;
+  }
+
+  &.open &__body {
+    z-index: 2200;
+    transition: all 0.5s ease 0s;
+    transform: translateX(0);
+    opacity: 1;
+
+  }
+
+  &__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+  }
+
+  &__body {
+    width: 80%;
+    height: 100vh;
+    margin-left: 20%;
+    background-color: #fff;
+    z-index: -1;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.5s ease 0s;
+    overflow: auto;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    margin-left: 2rem;
+    padding-top: 3rem;
+  }
+
+  &__content a {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__close {
+    position: absolute;
+    right: 1.5rem;
+    top: 1rem;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+}

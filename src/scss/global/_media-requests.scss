@@ -1,0 +1,255 @@
+@media (max-width: 769px) {
+  html {
+    font-size: 10px;
+  }
+
+  .full-screen__title {
+    display: none;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .header__top-row {
+    display: none;
+  }
+
+  .header__search {
+    width: 0.5rem;
+    background-color: #fff;
+  }
+
+  .header__search-btn {
+    background-color: #fff;
+    //margin-left: 7.9rem;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .media__container {
+    width: 13rem;
+  }
+
+  .header__menu-icon {
+    position: relative;
+    top: 32.5%;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+  }
+
+  .header__menu-icon span,
+  .header__menu-icon::before,
+  .header__menu-icon::after {
+    position: absolute;
+    left: 0;
+    height: 0.2rem;
+    width: 100%;
+    background-color: #000;
+  }
+
+  .header__menu-icon::before,
+  .header__menu-icon::after {
+    content: ""
+  }
+
+  .header__menu-icon::after {
+    bottom: 0;
+  }
+
+  .header__menu-icon span {
+    top: 50%;
+
+  }
+
+  .header__bottom-content {
+    font-size: 1rem;
+  }
+
+  .footer__content {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
+
+  .footer__info {
+    flex-direction: column;
+    height: inherit;
+    margin-bottom: 3rem;
+    width: 95%;
+    flex: 1 1 auto;
+
+    &.open {
+      height: 30rem;
+    }
+  }
+
+  .footer__info-link {
+    padding-bottom: 2rem;
+  }
+
+  .footer__link-info {
+    padding-bottom: 0.5rem;
+    font-weight: 400;
+  }
+
+  .footer__help-title {
+    padding-bottom: 0.7rem;
+    font-weight: 400;
+  }
+
+  .footer__about-nike {
+    padding-bottom: 0.7rem;
+    font-weight: 400;
+  }
+
+  .link-white {
+    padding-bottom: 0.2rem;
+  }
+
+  .popup__title {
+    left: 8rem;
+  }
+
+  .popup__img {
+    display: none;
+  }
+
+  .popup__body {
+    width: 30rem;
+  }
+
+  .card-title {
+    font-size: 10px;
+  }
+
+  .open-list,
+  .footer__link-help::before,
+  .footer__link-help::after {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    height: 0.2rem;
+    width: 3%;
+    background-color: #fff;
+  }
+
+  .footer__link-help::before,
+  .footer__link-help::after {
+    content: "";
+    transform: rotate(0deg);
+  }
+
+  .open-list_a,
+  .footer__link-about::before,
+  .footer__link-about::after {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    height: 0.2rem;
+    width: 3%;
+    background-color: #fff;
+  }
+
+  .open-list {
+    transform: rotate(90deg);
+
+    &.open {
+      transform: rotate(0deg);
+    }
+  }
+
+  .open-list_a {
+    transform: rotate(90deg);
+
+    &.open {
+      transform: rotate(0deg);
+    }
+  }
+
+  .footer__link-about::before,
+  .footer__link-about::after {
+    content: "";
+    transform: rotate(0deg);
+  }
+
+  .help__container {
+    display: flex;
+    flex-direction: column;
+    height: 9rem;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+    flex: 1 1 auto;
+
+    &.open {
+      transform: translateY(0%);
+      transition: all 0.5s ease 0s;
+      opacity: 1;
+      z-index: 1;
+    }
+  }
+
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    height: 9rem;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+    flex: 1 1 auto;
+
+    &.open {
+      transform: translateY(0%);
+      transition: all 0.5s ease 0s;
+      opacity: 1;
+      z-index: 1;
+    }
+  }
+
+  .open-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 5rem;
+    width: 15%;
+    z-index: 20;
+    opacity: 0;
+
+  }
+
+  .footer__link-help {
+    flex: 1 1 auto;
+    height: 5rem;
+    transition: all 0.5s ease 0s;
+
+    & a {
+      margin-bottom: 0.2rem;
+    }
+
+    &.open {
+      height: 13rem;
+      transition: all 0.5s ease 0s;
+    }
+  }
+
+  .footer__link-about {
+    flex: 1 1 auto;
+    height: 5rem;
+    transition: all 0.5s ease 0s;
+
+    & a {
+      margin-bottom: 0.2rem;
+    }
+
+    &.open {
+      height: 13rem;
+      transition: all 0.5s ease 0s;
+    }
+  }
+
+}

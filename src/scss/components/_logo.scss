@@ -1,0 +1,44 @@
+.logo {
+  &__jordon {
+    padding: 0.7rem 0 0 1.7rem;
+    height: 3rem;
+    cursor: pointer;
+  }
+}
+
+.logo-nike {
+  height: 50px;
+  padding-top: 15px;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+p {
+  cursor: pointer;
+}
+
+.cart__container {
+  position: relative;
+  right: 5%;
+  top: 12%;
+  cursor: pointer;
+}
+
+.cart__counter {
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  cursor: pointer;
+}
+
+.btn__cart {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(223, 233, 237);
+  }
+}
