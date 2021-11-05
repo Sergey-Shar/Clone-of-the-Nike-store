@@ -3,18 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+This project is a smaller copy of the Nike online store.   When creating it, I paid attention to the functionality and therefore used css bootstrapping for faster layout.  My task in this project was to teach how to work with network requests. Therefore, information about goods and their photos are stored on a remote server, and when a product is selected, a new object with the product is sent to the server and also stored in local storage. All files in the project are divided into modules. When writing JS code, a functional approach is used.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
