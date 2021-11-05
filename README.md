@@ -12,7 +12,12 @@ This project is a smaller copy of the Nike online store.   When creating it, I p
 ### Built With
 The following tools were used to develop the project
 
+### Tools :hammer:
 
+* HTML5
+* EC6
+* Library Bootstrap
+* scss
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
