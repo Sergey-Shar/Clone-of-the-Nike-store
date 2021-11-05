@@ -20,7 +20,7 @@ The following tools were used to develop the project :hammer:
 
 
 ### The finished result can be viewed here:
-<https://sergey-shar.github.io/Clone-of-the-Nike-store/
+https://sergey-shar.github.io/Clone-of-the-Nike-store/
 
 
 
