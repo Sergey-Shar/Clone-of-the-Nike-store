@@ -14,9 +14,9 @@ The following tools were used to develop the project :hammer:
 
 
 * HTML5
-* EC6
+* ES6
 * Library Bootstrap
-* scss
+* SCSS
 
 
 ### The finished result can be viewed here:
